@@ -15,5 +15,5 @@ export const getProducts = async (category = "") => {
 
 // Get product image URL
 export const getProductImageUrl = (imagePath) => {
-  return `${API_BASE_URL}/${imagePath}`;
+  return `http://localhost:9090/api/products/images/${imagePath}`;
 };
